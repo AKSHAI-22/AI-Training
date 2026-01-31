@@ -1,0 +1,6 @@
+len=float(input("Enter length: "))
+breadth=float(input("Enter breadth: "))
+radi=float(input("Enter Radius: "))
+print("Area of rectangle:",len*breadth)
+print("Perimeter of rectange:",2*(len+breadth))
+print("Circumference of a circle: ",2*(22/7)*radi)
