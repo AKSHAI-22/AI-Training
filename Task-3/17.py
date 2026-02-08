@@ -1,0 +1,5 @@
+a = list(map(int, input().split()))
+b = list(map(int, input().split()))
+c=set(a)
+b=set(b)
+print(list(c^b))
